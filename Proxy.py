@@ -155,7 +155,7 @@ while True:
       # originServerRequestHeader is the second line in the request
       # ~~~~ INSERT CODE ~~~~
       originServerRequest = method + ' ' + resource + ' ' + version
-      originServerRequestHeader = 'Host: ' + hostname
+      originServerRequestHeader = 'Host: ' + hostname + '\r\nConnection: close\r\nUser-Agent: Mozilla/5.0'
       # ~~~~ END CODE INSERT ~~~~
 
       # Construct the request to send to the origin server
