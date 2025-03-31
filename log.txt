@@ -1,10 +1,43 @@
+rd6c7454 | unknown | 2025-03-31 13:43:08 +1030 (Mon, 31 Mar 2025) | Add log.txt
+ log.txt | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
 r05e219c | unknown | 2025-03-31 07:36:19 +1030 (Mon, 31 Mar 2025) | Add Connection: close and forward client User-Agent to improve compatibility
+ Proxy.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 rf2858b1 | unknown | 2025-03-31 07:19:36 +1030 (Mon, 31 Mar 2025) | Try encoding cashdata before sending
+ Proxy.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 r0df0296 | unknown | 2025-03-31 07:04:16 +1030 (Mon, 31 Mar 2025) | Wrote origin server response to local cache file
+ Proxy.py | 1 +
+ 1 file changed, 1 insertion(+)
+
 r3cfe8ec | unknown | 2025-03-31 07:03:16 +1030 (Mon, 31 Mar 2025) | Received response data from origin server using buffered read and Forwarded origin server response back to client
+ Proxy.py | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
 rcaa3a03 | unknown | 2025-03-31 06:46:57 +1030 (Mon, 31 Mar 2025) | Constructed HTTP/1.1 request headers and forwarded to origin server
+ Proxy.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
 r2d77205 | unknown | 2025-03-31 06:43:40 +1030 (Mon, 31 Mar 2025) | Created socket and connected to origin web server on cache miss
+ Proxy.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
 r9cdae39 | unknown | 2025-03-31 06:38:55 +1030 (Mon, 31 Mar 2025) | Returned cached content to client on cache hit.
+ Proxy.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 r47e0eb9 | unknown | 2025-03-31 06:36:02 +1030 (Mon, 31 Mar 2025) | Add logic of Failing to receive request
+ Proxy.py | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
 r57952ce | unknown | 2025-03-31 06:26:15 +1030 (Mon, 31 Mar 2025) | Created TCP socket for proxy server,bound socket and listening,accepted incoming client connection and stored socket reference,received HTTP request from client socket
+ Proxy.py | 5 +++++
+ 1 file changed, 5 insertions(+)
+
 r37a80bb | unknown | 2025-03-31 01:23:17 +1030 (Mon, 31 Mar 2025) | Create assignment skeleton file
+ Proxy.py | 195 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 195 insertions(+)
